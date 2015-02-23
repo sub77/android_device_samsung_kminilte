@@ -40,6 +40,10 @@ BOARD_USES_LIBMEDIA_WITH_AUDIOPARAMETER := true
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/kminilte/bluetooth
 
+# NFC
+BOARD_NFC_CHIPSET := pn547
+BOARD_NFC_HAL_SUFFIX := universal3470
+
 # Recovery
 TARGET_RECOVERY_DEVICE_DIRS += device/samsung/kminilte
 TARGET_RECOVERY_FSTAB := device/samsung/kminilte/rootdir/etc/fstab.universal3470
