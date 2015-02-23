@@ -28,7 +28,7 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2411724800
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 12834570240
 
 # Include path
-TARGET_SPECIFIC_HEADER_PATH := device/samsung/kminilte/include
+TARGET_SPECIFIC_HEADER_PATH += device/samsung/kminilte/include
 
 # Kernel
 TARGET_KERNEL_CONFIG := kminilte_00_defconfig
