@@ -215,3 +215,7 @@
 
 # FM Radio
 /dev/radio0               0660   system     audio
+
+# Wlan
+/dev/wcnss_wlan           0660   system     system
+/dev/wcnss_ctrl           0660   system     system
